@@ -261,7 +261,6 @@ export function _saveTweet ({ text, author, replyingTo }) {
         ...tweets,
         [formattedTweet.id]: formattedTweet,
       }
-
       users = {
         ...users,
         [author]: {
